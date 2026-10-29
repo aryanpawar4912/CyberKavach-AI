@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+backend/env/
+*.sqlite3
+backend/staticfiles/
+backend/media/
+backend/trained_models/*.joblib
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+
+# Environments & Keys
+.env
+*.env
+!.env.example
+.venv
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
